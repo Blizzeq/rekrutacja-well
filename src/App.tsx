@@ -165,7 +165,7 @@ function App() {
 
           <Toolbar />
           <DateNavigator />
-          <TodayButton messages={getAllDayMessages(locale)}/>
+          <TodayButton messages={getAllDayMessages(locale)} />
           <ViewSwitcher />
           <Appointments />
           <EditRecurrenceMenu />
@@ -174,6 +174,7 @@ function App() {
           <AllDayPanel messages={getAllDayMessages(locale)} />
           <ConfirmationDialog />
         </Scheduler>
+        <Typography variant='h6' style={{ textAlign: 'center', margin: '10px 0', fontSize: '1.2rem', fontWeight: 'bold' }}>Jakub Krasuski - Rekrutacja WELL</Typography>
       </Paper>
     </Auth>
   )
